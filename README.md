@@ -4,7 +4,8 @@
 ## 文件说明
 + `iris_pytorch_200824`    
 
-用熟悉的鸢尾花(iris)数据集来学习Pytorch，包括简单神经网络的不同搭建方法。利用Pytorch实现神经网络时，要注意：
+用熟悉的鸢尾花(iris)数据集来学习Pytorch，包括简单神经网络的不同搭建方法。利用Pytorch实现神经网络时，要注意：    
+
 	>1. numpy和tensor的互化
 	>2. 数据类型的转化，包括numpy的int32、float64等，注意numpy中`astype()`的用法。
 	>3. 注意conv接收的数据为4维：`batch, channel, H, W`，维度的增加和减少要记住`squeeze()`和`unsqueeze()`的用法，改变tensor尺寸要熟悉`view()`的用法。
