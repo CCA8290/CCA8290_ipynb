@@ -12,3 +12,10 @@
 + `TorchTensor学习+AdderNet_20200814`   
 
 假期对torch的简单回顾，包括CVPR2020上AdderNet论文的尝试。这个notebook中要注意，想要手动定义卷积核，可以使用torch.nn.functional中的conv2d()，它和torch.nn中的Conv2d不太一样，注意区别功能和函数名的大小写。
+
++ `GD_iris_20200918.ipynb`    
+借助iris数据集对几种常见的梯度学习进行对比。
+
+
+
+
