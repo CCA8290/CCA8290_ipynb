@@ -16,7 +16,7 @@
 + `GD_iris_20200918.ipynb`    
 借助iris数据集对几种常见的梯度学习进行对比。
 
-+ `mnist.ipynb`
++ `mnist.ipynb`    
 这个notebook主要用来：   
 	- 学习pytorch训练模型
 	- 学习dataloader方法和ImageFolder方法，后者主要用于从图片加载数据集
